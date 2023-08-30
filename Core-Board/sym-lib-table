@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "ESP32")(type "Legacy")(uri "${KIPRJMOD}/../hardware-sch-blocks/ELLIE/symbols/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
+  (lib (name "Buf_74HC4050D")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/ALULA-FLIGHT/74HC4050D/74HC4050D.kicad_sym")(options "")(descr ""))
+  (lib (name "XTSD_NAND")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/ALULA-FLIGHT/XTSD04GLGEAG/XTSD04GLGEAG.kicad_sym")(options "")(descr ""))
+  (lib (name "PCIE")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCIE-LP-01-01-F-DV-A-TR/PCIE-LP-01-01-F-DV-A-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60-LiPO")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/XT60-M/XT60-M.kicad_sym")(options "")(descr ""))
+)

@@ -1,4 +1,4 @@
-20970841372141355
+20969898719388837
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58321,8 +58321,8 @@ MAX31855_Breakout
 
 
 0
-12
-12
+8
+8
 MAX31856_Breakout
 MAX31856_Breakout
 
@@ -62005,13 +62005,6 @@ PCF8575_Breakout
 0
 25
 25
-PCIe_x1_card_edge
-PCIe_x1_card_edge
-PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
-PCIe
-0
-36
-36
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf

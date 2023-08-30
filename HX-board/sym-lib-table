@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name "PCIE_Card_Edge")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/PCIE-LP-01-01-F-DV-A-TR/PCIE-LP-01-01-F-DV-A-TR.kicad_sym")(options "")(descr ""))
-  (lib (name "ELLIE")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/ELLIE/symbols/ELLIE_Symbol_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "PCIE_Card_Edge")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCIE-LP-01-01-F-DV-A-TR/PCIE-LP-01-01-F-DV-A-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "ELLIE")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/ELLIE/symbols/ELLIE_Symbol_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "HX711")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/HX711/HX711.kicad_sym")(options "")(descr ""))
 )

@@ -126,6 +126,7 @@
   (net 49 "unconnected-(J2-PadB16)")
   (net 50 "unconnected-(J2-PadB17)")
   (net 51 "unconnected-(J2-PadB18)")
+  (net 52 "unconnected-(J2-PadB8)")
 
   (footprint "Connector_PCBEdge:BUS_PCIexpress_x1" (layer "F.Cu")
     (tedit 5DBD33CB) (tstamp 08320a7a-ec88-4096-81da-c8540a6ffe6d)
@@ -222,7 +223,7 @@
     (pad "B7" connect rect (at 6 0) (size 0.7 4.3) (layers "F.Cu" "F.Mask")
       (net 48 "unconnected-(J2-PadB7)") (pinfunction "B7") (pintype "passive+no_connect") (tstamp 973fd5ce-e6c5-4786-ac39-d423f31c13d9))
     (pad "B8" connect rect (at 7 0) (size 0.7 4.3) (layers "F.Cu" "F.Mask")
-      (net 1 "GND") (pinfunction "B8") (pintype "passive") (tstamp 68b50728-6fc0-4af0-9261-dd22364d7cca))
+      (net 52 "unconnected-(J2-PadB8)") (pinfunction "B8") (pintype "passive+no_connect") (tstamp 68b50728-6fc0-4af0-9261-dd22364d7cca))
     (pad "B9" connect rect (at 8 0) (size 0.7 4.3) (layers "F.Cu" "F.Mask")
       (net 30 "/CS1") (pinfunction "B9") (pintype "passive") (tstamp f57cdc20-a065-430a-9f98-1bf2563b58c9))
     (pad "B10" connect rect (at 9 0) (size 0.7 4.3) (layers "F.Cu" "F.Mask")

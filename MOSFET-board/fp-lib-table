@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "BTS3080EJXUMA1")(type "KiCad")(uri "C:/Users/Gre8n/Documents/Berkeley/STAR/LE2-PCB-HF2/hardware-sch-blocks/LE2/BTS3080EJXUMA1")(options "")(descr ""))
+  (lib (name "BTS3080EJXUMA1")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/BTS3080EJXUMA1")(options "")(descr ""))
+  (lib (name "PCF8575_Breakout")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCF8575_Breakout/PCF8575_Breakout.pretty")(options "")(descr ""))
 )

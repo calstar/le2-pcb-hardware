@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name "PCIE-LP-01-01-F-DV-A-TR")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCIE-LP-01-01-F-DV-A-TR")(options "")(descr ""))
+  (lib (name "74HC4050D")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/ALULA-FLIGHT/74HC4050D")(options "")(descr ""))
+  (lib (name "XTSD04GLGEAG")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/ALULA-FLIGHT/XTSD04GLGEAG")(options "")(descr ""))
+  (lib (name "Ellie_Project_Footprints")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/ELLIE/footprints/Ellie_Project_Footprints.pretty")(options "")(descr ""))
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/XT60-M")(options "")(descr ""))
+  (lib (name "PCIE_throughhole")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/10018783-11200TLF")(options "")(descr ""))
+  (lib (name "AZ1117IH-3")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/AZ1117IH-3.3TRG1")(options "")(descr ""))
+)

@@ -4372,7 +4372,7 @@
     (uuid 1c43319e-7373-4e42-8c0b-9621338797a5)
     (property "Reference" "J5" (id 0) (at 158.75 147.32 0))
     (property "Value" "PCIE" (id 1) (at 158.75 149.86 0))
-    (property "Footprint" "PCIE_throughhole:AMPHENOL_10018783-11200TLF" (id 2) (at 157.48 207.01 0)
+    (property "Footprint" "10018784-10210TLF:AMPHENOL_10018784-10210TLF" (id 2) (at 157.48 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 157.48 207.01 0)
@@ -4696,7 +4696,7 @@
     (uuid 54c4d0ab-46f9-43c0-898c-6a220b8fa724)
     (property "Reference" "J10" (id 0) (at 265.43 147.32 0))
     (property "Value" "PCIE" (id 1) (at 265.43 149.86 0))
-    (property "Footprint" "PCIE_throughhole:AMPHENOL_10018783-11200TLF" (id 2) (at 264.16 207.01 0)
+    (property "Footprint" "10018784-10210TLF:AMPHENOL_10018784-10210TLF" (id 2) (at 264.16 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 264.16 207.01 0)
@@ -5080,7 +5080,7 @@
     (uuid 96b9cdb6-15db-4919-bc6e-d568351af155)
     (property "Reference" "J2" (id 0) (at 52.07 147.32 0))
     (property "Value" "PCIE" (id 1) (at 52.07 149.86 0))
-    (property "Footprint" "PCIE_throughhole:AMPHENOL_10018783-11200TLF" (id 2) (at 50.8 207.01 0)
+    (property "Footprint" "10018784-10210TLF:AMPHENOL_10018784-10210TLF" (id 2) (at 50.8 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 50.8 207.01 0)
@@ -5521,7 +5521,7 @@
     (uuid d3636d21-c771-40d8-9746-b5c1c32e4f3d)
     (property "Reference" "J8" (id 0) (at 212.09 147.32 0))
     (property "Value" "PCIE" (id 1) (at 212.09 149.86 0))
-    (property "Footprint" "PCIE_throughhole:AMPHENOL_10018783-11200TLF" (id 2) (at 210.82 207.01 0)
+    (property "Footprint" "10018784-10210TLF:AMPHENOL_10018784-10210TLF" (id 2) (at 210.82 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 210.82 207.01 0)
@@ -5723,7 +5723,7 @@
     (uuid e918744b-b12c-4b95-a404-7b5236770a01)
     (property "Reference" "J4" (id 0) (at 105.41 147.32 0))
     (property "Value" "PCIE" (id 1) (at 105.41 149.86 0))
-    (property "Footprint" "PCIE_throughhole:AMPHENOL_10018783-11200TLF" (id 2) (at 104.14 207.01 0)
+    (property "Footprint" "10018784-10210TLF:AMPHENOL_10018784-10210TLF" (id 2) (at 104.14 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 104.14 207.01 0)
@@ -6059,16 +6059,16 @@
       (reference "J1") (unit 1) (value "POWER") (footprint "Connector:Banana_Jack_2Pin")
     )
     (path "/96b9cdb6-15db-4919-bc6e-d568351af155"
-      (reference "J2") (unit 1) (value "PCIE") (footprint "PCIE_throughhole:AMPHENOL_10018783-11200TLF")
+      (reference "J2") (unit 1) (value "PCIE") (footprint "10018784-10210TLF:AMPHENOL_10018784-10210TLF")
     )
     (path "/cb45fbf9-ba1c-4c10-92c7-cc39f699f73a"
       (reference "J3") (unit 1) (value "XT60-M") (footprint "XT60-M:AMASS_XT60-M")
     )
     (path "/e918744b-b12c-4b95-a404-7b5236770a01"
-      (reference "J4") (unit 1) (value "PCIE") (footprint "PCIE_throughhole:AMPHENOL_10018783-11200TLF")
+      (reference "J4") (unit 1) (value "PCIE") (footprint "10018784-10210TLF:AMPHENOL_10018784-10210TLF")
     )
     (path "/1c43319e-7373-4e42-8c0b-9621338797a5"
-      (reference "J5") (unit 1) (value "PCIE") (footprint "PCIE_throughhole:AMPHENOL_10018783-11200TLF")
+      (reference "J5") (unit 1) (value "PCIE") (footprint "10018784-10210TLF:AMPHENOL_10018784-10210TLF")
     )
     (path "/9915a168-b5b5-4cc9-a845-d62f1365f20e"
       (reference "J6") (unit 1) (value "ESP32-DEVKITC-32D") (footprint "Ellie_Project_Footprints:MODULE_ESP32-DEVKITC-32D")
@@ -6077,13 +6077,13 @@
       (reference "J7") (unit 1) (value "Conn_01x19_Male") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x19_P1.27mm_Vertical")
     )
     (path "/d3636d21-c771-40d8-9746-b5c1c32e4f3d"
-      (reference "J8") (unit 1) (value "PCIE") (footprint "PCIE_throughhole:AMPHENOL_10018783-11200TLF")
+      (reference "J8") (unit 1) (value "PCIE") (footprint "10018784-10210TLF:AMPHENOL_10018784-10210TLF")
     )
     (path "/178070bc-9e77-447a-b349-b952957ba5f5"
       (reference "J9") (unit 1) (value "Conn_01x19_Male") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x19_P1.27mm_Vertical")
     )
     (path "/54c4d0ab-46f9-43c0-898c-6a220b8fa724"
-      (reference "J10") (unit 1) (value "PCIE") (footprint "PCIE_throughhole:AMPHENOL_10018783-11200TLF")
+      (reference "J10") (unit 1) (value "PCIE") (footprint "10018784-10210TLF:AMPHENOL_10018784-10210TLF")
     )
     (path "/fcbb5a27-40ec-4170-896c-a481825968e6"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")

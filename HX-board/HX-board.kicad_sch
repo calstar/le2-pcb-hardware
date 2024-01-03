@@ -3109,6 +3109,30 @@
     (path "/85be5553-ef77-402c-b41d-6bc9479906f3/d30c5432-8adc-4aca-b8b3-f4613ce47207"
       (reference "#PWR055") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a922e1aa-9364-4f33-9471-fcd3788bd0f3/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/818627f5-50b1-46d1-95cb-7761283d444d/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/9138344b-281a-4128-acb6-5759c1e5ca5c/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/554ed949-b417-405d-a08b-3637fb56c2ec/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/56e76c6b-6ade-468a-948d-225f06f3f1e1/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/608d5773-d782-4244-8620-a15d3ff1faa4/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/c5eccf7d-3e0f-4b6d-aeb2-ca53b32c1388/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/85be5553-ef77-402c-b41d-6bc9479906f3/07468444-3f80-4047-9e2a-583860acce11"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/554ed949-b417-405d-a08b-3637fb56c2ec/06b1cb27-69b9-4842-a12f-c48aecd776f3"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )

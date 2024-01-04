@@ -557,6 +557,10 @@
     [
       "828e94c7-3d68-4f8b-8067-489ddf2104fa",
       "Pyro 4"
+    ],
+    [
+      "28f0a656-975f-473d-8fdf-a8a64c825c73",
+      "i2c_level_shifter"
     ]
   ],
   "text_variables": {}

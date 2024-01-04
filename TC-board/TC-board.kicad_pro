@@ -496,6 +496,22 @@
     [
       "3e947056-b3c2-421a-85d9-8876abd44300",
       ""
+    ],
+    [
+      "1e8ee212-3dd9-42e6-b7d7-59a817b4dcd0",
+      "max31855_breakout4"
+    ],
+    [
+      "329e8cce-58fe-48b0-8a68-4a2faeea71a4",
+      "max31855_breakout3"
+    ],
+    [
+      "7bb441fe-a65d-4577-981e-5fe9f318f719",
+      "max31855_breakout2"
+    ],
+    [
+      "6841127b-32f2-4c29-b48c-a0f65e86ead8",
+      "max31855_breakout1"
     ]
   ],
   "text_variables": {}

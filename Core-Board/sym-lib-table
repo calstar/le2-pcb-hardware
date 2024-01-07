@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "ESP32")(type "Legacy")(uri "${KIPRJMOD}/../hardware-sch-blocks/ELLIE/symbols/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
-  (lib (name "MCP23S17-E_SO")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/MCP23S17-E_SO/MCP23S17-E_SO.kicad_sym")(options "")(descr ""))
+  (lib (name "PCF8575DW")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCF8575DW/PCF8575DW.kicad_sym")(options "")(descr ""))
+  (lib (name "PCIE-164-02-X-D-TH")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCIE-164-02-X-D-TH/PCIE-164-02-X-D-TH.kicad_sym")(options "")(descr ""))
 )

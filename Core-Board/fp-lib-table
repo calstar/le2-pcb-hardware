@@ -7,4 +7,5 @@
   (lib (name "AZ1117IH-3")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/AZ1117IH-3.3TRG1")(options "")(descr ""))
   (lib (name "10018784-10210TLF")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/10018784-10210TLF")(options "")(descr ""))
   (lib (name "PCIE-164-02-X-D-TH")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCIE-164-02-X-D-TH")(options "")(descr ""))
+  (lib (name "DSUB_622-015-260-042")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/DSUB_622-015-260-042")(options "")(descr ""))
 )

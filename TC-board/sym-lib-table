@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name "PCIE_Card_Edge")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCIE-LP-01-01-F-DV-A-TR/PCIE-LP-01-01-F-DV-A-TR.kicad_sym")(options "")(descr ""))
-  (lib (name "MAX31855_Breakout")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/MAX31855_Breakout/MAX31855_Breakout.kicad_sym")(options "")(descr ""))
-  (lib (name "PCF8575_Breakout")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCF8575_Breakout/PCF8575_Breakout.kicad_sym")(options "")(descr ""))
-  (lib (name "PCIE-164-02-X-D-TH")(type "KiCad")(uri "${KIPRJMOD}/../hardware-sch-blocks/LE2/PCIE-164-02-X-D-TH/PCIE-164-02-X-D-TH.kicad_sym")(options "")(descr ""))
-)

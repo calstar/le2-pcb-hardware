@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BTS3080EJXUMA1")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/BTS3080EJXUMA1/BTS3080EJXUMA1.kicad_sym")(options "")(descr ""))
+  (lib (name "PCF8575DW")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/PCF8575DW/PCF8575DW.kicad_sym")(options "")(descr ""))
+)

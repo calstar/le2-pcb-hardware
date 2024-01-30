@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -73,7 +73,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -89,7 +89,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -114,21 +114,21 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.15239999999999998,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.254,
-        "min_hole_clearance": 0.32999999999999996,
-        "min_hole_to_hole": 0.5,
+        "min_copper_edge_clearance": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.15239999999999998,
-        "min_via_annular_width": 0.15239999999999998,
-        "min_via_diameter": 0.6095999999999999,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.19999999999999998,
+        "min_via_annular_width": 0.09999999999999999,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -176,10 +176,11 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.254,
         0.508,
-        0.762,
-        1.016
+        1.016,
+        1.524
       ],
       "via_dimensions": [
         {
@@ -187,7 +188,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.7112,
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6096,
           "drill": 0.3048
         },
         {
@@ -383,18 +388,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -404,6 +414,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -415,14 +426,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HX-board.kicad_pro",
+    "filename": "COM-Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -432,9 +443,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.7112,
-        "via_drill": 0.3048,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -449,7 +460,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "./",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -480,18 +491,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
-    "spice_adjust_passive_values": false,
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -502,40 +503,8 @@
   },
   "sheets": [
     [
-      "7caa08fb-843e-42ac-9792-b2dee7fa9852",
+      "a0ce0ee0-e445-4a1c-b8eb-b7444a2f2e87",
       ""
-    ],
-    [
-      "554ed949-b417-405d-a08b-3637fb56c2ec",
-      "HX711 1"
-    ],
-    [
-      "a922e1aa-9364-4f33-9471-fcd3788bd0f3",
-      "HX711 2"
-    ],
-    [
-      "56e76c6b-6ade-468a-948d-225f06f3f1e1",
-      "HX711 3"
-    ],
-    [
-      "9138344b-281a-4128-acb6-5759c1e5ca5c",
-      "HX711 4"
-    ],
-    [
-      "c5eccf7d-3e0f-4b6d-aeb2-ca53b32c1388",
-      "HX711 5"
-    ],
-    [
-      "818627f5-50b1-46d1-95cb-7761283d444d",
-      "HX711 6"
-    ],
-    [
-      "608d5773-d782-4244-8620-a15d3ff1faa4",
-      "HX711 7"
-    ],
-    [
-      "85be5553-ef77-402c-b41d-6bc9479906f3",
-      "HX711 8"
     ]
   ],
   "text_variables": {}

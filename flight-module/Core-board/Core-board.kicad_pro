@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -63,26 +63,20 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
-        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -92,14 +86,9 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
-        "starved_thermal": "error",
-        "text_height": "warning",
-        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -108,6 +97,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -179,7 +169,14 @@
         0.254,
         0.508,
         0.762,
-        1.016
+        1.016,
+        1.27,
+        1.524,
+        1.778,
+        3.048,
+        3.81,
+        5.08,
+        7.62
       ],
       "via_dimensions": [
         {
@@ -415,13 +412,13 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HX-board.kicad_pro",
+    "filename": "Core-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12,
+        "bus_width": 12.0,
         "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -435,11 +432,11 @@
         "track_width": 0.254,
         "via_diameter": 0.7112,
         "via_drill": 0.3048,
-        "wire_width": 6
+        "wire_width": 6.0
       }
     ],
     "meta": {
-      "version": 3
+      "version": 2
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -449,7 +446,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "./",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -502,40 +499,32 @@
   },
   "sheets": [
     [
-      "7caa08fb-843e-42ac-9792-b2dee7fa9852",
+      "9e0a4b39-2b30-4bec-9684-92acf902e3a8",
       ""
     ],
     [
-      "554ed949-b417-405d-a08b-3637fb56c2ec",
-      "HX711 1"
-    ],
-    [
-      "a922e1aa-9364-4f33-9471-fcd3788bd0f3",
+      "4334e1c6-a481-47cc-b56f-687fcc2ef704",
       "HX711 2"
     ],
     [
-      "56e76c6b-6ade-468a-948d-225f06f3f1e1",
-      "HX711 3"
+      "7a70d926-e3b2-48b9-925c-0c3cc50c8ad1",
+      "HX711 1"
     ],
     [
-      "9138344b-281a-4128-acb6-5759c1e5ca5c",
+      "c713b04c-318f-489c-be97-e92c8777459f",
       "HX711 4"
     ],
     [
-      "c5eccf7d-3e0f-4b6d-aeb2-ca53b32c1388",
+      "4fe4270c-7bf2-4891-99f9-9b740a9f113c",
       "HX711 5"
     ],
     [
-      "818627f5-50b1-46d1-95cb-7761283d444d",
+      "2b5d97af-2bfa-4d6a-a424-87ebc989c58d",
       "HX711 6"
     ],
     [
-      "608d5773-d782-4244-8620-a15d3ff1faa4",
-      "HX711 7"
-    ],
-    [
-      "85be5553-ef77-402c-b41d-6bc9479906f3",
-      "HX711 8"
+      "06c36a21-3f2f-415c-83c0-11dd951a1cef",
+      "HX711 3"
     ]
   ],
   "text_variables": {}

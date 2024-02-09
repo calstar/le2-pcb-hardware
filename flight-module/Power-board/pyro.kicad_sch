@@ -394,6 +394,46 @@
         )
       )
     )
+    (symbol "power:GND2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND2" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND2\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND2_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND2_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND2" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 89.916 56.896) (diameter 0) (color 0 0 0 0)
@@ -404,9 +444,6 @@
   )
   (junction (at 82.296 51.816) (diameter 0) (color 0 0 0 0)
     (uuid b53c2e26-1da4-4458-97ab-c33152f03589)
-  )
-  (junction (at 82.55 67.056) (diameter 0) (color 0 0 0 0)
-    (uuid dddd01cb-3877-4765-8000-33f67587cebb)
   )
 
   (wire (pts (xy 80.518 51.816) (xy 82.296 51.816))
@@ -450,18 +487,11 @@
     (uuid ef629444-064b-4b27-844f-b776cd0a33eb)
   )
 
-  (global_label "BAT2_+" (shape input) (at 89.916 43.18 0) (fields_autoplaced)
+  (global_label "V_pyro_+" (shape input) (at 89.916 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5e653a7b-ef7c-46af-9c60-4041a4ce19f4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.9769 43.18 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.5492 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "BAT2_-" (shape input) (at 82.55 67.31 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c86bf77f-6d42-4256-91d4-99d764428cb9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 82.55 77.3709 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
 
@@ -511,37 +541,11 @@
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
           (reference "R20") (unit 1)
         )
-      )
-      (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/893d1dd2-3918-4c33-bb19-565952861d30"
-          (reference "R43") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
+          (reference "R5") (unit 1)
         )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/828e94c7-3d68-4f8b-8067-489ddf2104fa"
-          (reference "R50") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
-          (reference "R41") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/17e1af1c-892c-44b5-9f21-13c67f8345c1"
-          (reference "R48") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/9834d00b-56eb-4364-ac20-1e65e4de6ea7"
-          (reference "R49") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/cd0c8342-bbee-4b11-b720-e7d030d8c579"
-          (reference "R45") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/f50c45b0-5df9-4e33-b685-87d9ca9631b8"
-          (reference "R47") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/b7c464b0-d133-4d7c-85db-a1e6fa29541a"
-          (reference "R46") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/91bdbe40-1bb3-4c62-9e5c-60fa44689352"
-          (reference "R44") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/24e6f781-7c8b-4994-87df-00244dd6f39a"
-          (reference "R42") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -584,37 +588,11 @@
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
           (reference "D13") (unit 1)
         )
-      )
-      (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/893d1dd2-3918-4c33-bb19-565952861d30"
-          (reference "D18") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
+          (reference "D3") (unit 1)
         )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/828e94c7-3d68-4f8b-8067-489ddf2104fa"
-          (reference "D27") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
-          (reference "D15") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/17e1af1c-892c-44b5-9f21-13c67f8345c1"
-          (reference "D24") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/9834d00b-56eb-4364-ac20-1e65e4de6ea7"
-          (reference "D26") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/cd0c8342-bbee-4b11-b720-e7d030d8c579"
-          (reference "D20") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/f50c45b0-5df9-4e33-b685-87d9ca9631b8"
-          (reference "D23") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/b7c464b0-d133-4d7c-85db-a1e6fa29541a"
-          (reference "D22") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/91bdbe40-1bb3-4c62-9e5c-60fa44689352"
-          (reference "D19") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/24e6f781-7c8b-4994-87df-00244dd6f39a"
-          (reference "D16") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -658,37 +636,11 @@
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
           (reference "Q6") (unit 1)
         )
-      )
-      (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/893d1dd2-3918-4c33-bb19-565952861d30"
-          (reference "Q13") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
+          (reference "Q1") (unit 1)
         )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
-          (reference "Q11") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/24e6f781-7c8b-4994-87df-00244dd6f39a"
-          (reference "Q12") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/91bdbe40-1bb3-4c62-9e5c-60fa44689352"
-          (reference "Q14") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/cd0c8342-bbee-4b11-b720-e7d030d8c579"
-          (reference "Q15") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/b7c464b0-d133-4d7c-85db-a1e6fa29541a"
-          (reference "Q16") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/f50c45b0-5df9-4e33-b685-87d9ca9631b8"
-          (reference "Q17") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/17e1af1c-892c-44b5-9f21-13c67f8345c1"
-          (reference "Q18") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/9834d00b-56eb-4364-ac20-1e65e4de6ea7"
-          (reference "Q19") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/828e94c7-3d68-4f8b-8067-489ddf2104fa"
-          (reference "Q20") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -731,37 +683,57 @@
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
           (reference "F10") (unit 1)
         )
-      )
-      (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/893d1dd2-3918-4c33-bb19-565952861d30"
-          (reference "F4") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/828e94c7-3d68-4f8b-8067-489ddf2104fa"
-          (reference "F11") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
-          (reference "F2") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/17e1af1c-892c-44b5-9f21-13c67f8345c1"
-          (reference "F9") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/9834d00b-56eb-4364-ac20-1e65e4de6ea7"
-          (reference "F10") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/cd0c8342-bbee-4b11-b720-e7d030d8c579"
-          (reference "F6") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/f50c45b0-5df9-4e33-b685-87d9ca9631b8"
-          (reference "F8") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/b7c464b0-d133-4d7c-85db-a1e6fa29541a"
-          (reference "F7") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/91bdbe40-1bb3-4c62-9e5c-60fa44689352"
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
           (reference "F5") (unit 1)
         )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/24e6f781-7c8b-4994-87df-00244dd6f39a"
-          (reference "F3") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "F5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND2") (at 82.55 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ca3a9e39-fb59-414b-9fa5-89ad26ff0c27)
+    (property "Reference" "#PWR027" (at 82.55 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND2" (at 82.55 72.136 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 82.55 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1940f107-b29d-4cd1-aaf3-9776a72af24d))
+    (instances
+      (project "Power-board"
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/4b47e37f-b9fb-49e4-bcaa-a976ad9f7436"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/b394115b-ce7f-4fbc-8636-24f7f9318a29"
+          (reference "#PWR030") (unit 1)
+        )
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/b9e3fb5e-1aaf-4441-a502-e9322a0521f7"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/dafa71ee-19b1-4715-8299-60fc369b9f72"
+          (reference "#PWR032") (unit 1)
+        )
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/92109c20-f724-47fc-b233-38b127b96a64"
+          (reference "#PWR033") (unit 1)
+        )
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
+          (reference "#PWR034") (unit 1)
+        )
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -804,37 +776,11 @@
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
           (reference "R19") (unit 1)
         )
-      )
-      (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/893d1dd2-3918-4c33-bb19-565952861d30"
-          (reference "R27") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
+          (reference "R4") (unit 1)
         )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/828e94c7-3d68-4f8b-8067-489ddf2104fa"
-          (reference "R40") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
-          (reference "R23") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/17e1af1c-892c-44b5-9f21-13c67f8345c1"
-          (reference "R36") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/9834d00b-56eb-4364-ac20-1e65e4de6ea7"
-          (reference "R39") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/cd0c8342-bbee-4b11-b720-e7d030d8c579"
-          (reference "R31") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/f50c45b0-5df9-4e33-b685-87d9ca9631b8"
-          (reference "R35") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/b7c464b0-d133-4d7c-85db-a1e6fa29541a"
-          (reference "R32") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/91bdbe40-1bb3-4c62-9e5c-60fa44689352"
-          (reference "R28") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/24e6f781-7c8b-4994-87df-00244dd6f39a"
-          (reference "R24") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -877,37 +823,11 @@
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
           (reference "R18") (unit 1)
         )
-      )
-      (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/893d1dd2-3918-4c33-bb19-565952861d30"
-          (reference "R7") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
+          (reference "R2") (unit 1)
         )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/828e94c7-3d68-4f8b-8067-489ddf2104fa"
-          (reference "R20") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
-          (reference "R3") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/17e1af1c-892c-44b5-9f21-13c67f8345c1"
-          (reference "R16") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/9834d00b-56eb-4364-ac20-1e65e4de6ea7"
-          (reference "R19") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/cd0c8342-bbee-4b11-b720-e7d030d8c579"
-          (reference "R11") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/f50c45b0-5df9-4e33-b685-87d9ca9631b8"
-          (reference "R15") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/b7c464b0-d133-4d7c-85db-a1e6fa29541a"
-          (reference "R12") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/91bdbe40-1bb3-4c62-9e5c-60fa44689352"
-          (reference "R8") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/24e6f781-7c8b-4994-87df-00244dd6f39a"
-          (reference "R4") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -950,37 +870,11 @@
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/70f4d734-96a9-4385-8cd6-a59bff5d2465"
           (reference "D14") (unit 1)
         )
-      )
-      (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/893d1dd2-3918-4c33-bb19-565952861d30"
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/6df01bfc-6936-450a-97d1-d23d95f8d2b3"
           (reference "D4") (unit 1)
         )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/828e94c7-3d68-4f8b-8067-489ddf2104fa"
-          (reference "D14") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
-          (reference "D2") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/17e1af1c-892c-44b5-9f21-13c67f8345c1"
-          (reference "D11") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/9834d00b-56eb-4364-ac20-1e65e4de6ea7"
-          (reference "D12") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/cd0c8342-bbee-4b11-b720-e7d030d8c579"
-          (reference "D7") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/f50c45b0-5df9-4e33-b685-87d9ca9631b8"
-          (reference "D10") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/b7c464b0-d133-4d7c-85db-a1e6fa29541a"
-          (reference "D8") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/91bdbe40-1bb3-4c62-9e5c-60fa44689352"
-          (reference "D6") (unit 1)
-        )
-        (path "/eeff6235-4c56-4b47-a90f-883101560994/24e6f781-7c8b-4994-87df-00244dd6f39a"
-          (reference "D3") (unit 1)
+        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/f55be953-6123-41da-a455-ef6acd29f123"
+          (reference "D4") (unit 1)
         )
       )
     )

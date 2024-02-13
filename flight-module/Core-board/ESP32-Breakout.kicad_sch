@@ -2141,7 +2141,7 @@
   (symbol (lib_id "Connector:USB_B_Micro") (at 45.212 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb78b24d-6297-4942-9618-a0b70ea29963)
-    (property "Reference" "J?" (at 45.212 81.3902 0)
+    (property "Reference" "J2" (at 45.212 81.3902 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_B_Micro" (at 45.212 83.9271 0)
@@ -2162,7 +2162,7 @@
     (instances
       (project "Core-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/9ddfa1ea-66ee-4174-a94e-e68577e9309d"
-          (reference "J?") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )

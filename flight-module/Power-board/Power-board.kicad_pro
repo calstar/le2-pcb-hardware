@@ -412,9 +412,9 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_driven": "warning",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "warning",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -519,40 +519,8 @@
       ""
     ],
     [
-      "4b47e37f-b9fb-49e4-bcaa-a976ad9f7436",
-      "Pyro 1"
-    ],
-    [
-      "b394115b-ce7f-4fbc-8636-24f7f9318a29",
-      "Pyro 2"
-    ],
-    [
-      "b9e3fb5e-1aaf-4441-a502-e9322a0521f7",
-      "Pyro 3"
-    ],
-    [
-      "dafa71ee-19b1-4715-8299-60fc369b9f72",
-      "Pyro 4"
-    ],
-    [
-      "92109c20-f724-47fc-b233-38b127b96a64",
-      "Pyro 5"
-    ],
-    [
-      "70f4d734-96a9-4385-8cd6-a59bff5d2465",
-      "Pyro 6"
-    ],
-    [
-      "6df01bfc-6936-450a-97d1-d23d95f8d2b3",
-      "Pyro 8"
-    ],
-    [
       "27658330-53e6-419c-8f56-73f4d9006175",
       "level_shifter"
-    ],
-    [
-      "f55be953-6123-41da-a455-ef6acd29f123",
-      "Pyro 7"
     ]
   ],
   "text_variables": {}

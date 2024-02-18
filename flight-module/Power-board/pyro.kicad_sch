@@ -487,10 +487,10 @@
     (uuid ef629444-064b-4b27-844f-b776cd0a33eb)
   )
 
-  (global_label "V_pyro_+" (shape input) (at 89.916 43.18 0) (fields_autoplaced)
+  (global_label "SENS_N_PYRO+" (shape input) (at 89.916 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5e653a7b-ef7c-46af-9c60-4041a4ce19f4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.5492 43.18 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 107.5969 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )

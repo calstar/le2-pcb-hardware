@@ -788,7 +788,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 16.764 131.318 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 007eafe7-2f23-4749-a3bd-5e1d14e30745)
-    (property "Reference" "#FLG0101" (at 16.764 133.223 0)
+    (property "Reference" "#FLG04" (at 16.764 133.223 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 17.018 126.238 0)
@@ -803,9 +803,6 @@
     (pin "1" (uuid 6ef7cee1-c4d0-4279-92f6-d61d3e899ed0))
     (instances
       (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994"
-          (reference "#FLG0101") (unit 1)
-        )
         (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
           (reference "#FLG04") (unit 1)
         )
@@ -1470,7 +1467,7 @@
   (symbol (lib_id "power:+12V") (at 16.764 130.048 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9df37c60-3826-4580-ba29-a4d47a4e7cdf)
-    (property "Reference" "#PWR0101" (at 16.764 133.858 0)
+    (property "Reference" "#PWR029" (at 16.764 133.858 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 16.51 123.698 0)
@@ -1485,9 +1482,6 @@
     (pin "1" (uuid f4aeea52-d27e-407a-b313-a7c27718a66d))
     (instances
       (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994"
-          (reference "#PWR0101") (unit 1)
-        )
         (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
           (reference "#PWR029") (unit 1)
         )
@@ -1735,7 +1729,7 @@
   (symbol (lib_id "power:+12V") (at 104.902 30.988 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d176cf59-1208-4789-93c1-7bd54c2dc1cf)
-    (property "Reference" "#PWR0101" (at 104.902 34.798 0)
+    (property "Reference" "#PWR010" (at 104.902 34.798 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 104.648 24.638 0)
@@ -1750,9 +1744,6 @@
     (pin "1" (uuid 509558f0-c84d-4ba8-b571-247a5fc24365))
     (instances
       (project "MOSFET-board"
-        (path "/eeff6235-4c56-4b47-a90f-883101560994"
-          (reference "#PWR0101") (unit 1)
-        )
         (path "/eeff6235-4c56-4b47-a90f-883101560994/ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1"
           (reference "#PWR010") (unit 1)
         )

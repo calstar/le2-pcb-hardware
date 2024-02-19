@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -121,9 +121,9 @@
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.635,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.15239999999999998,
@@ -416,7 +416,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -428,7 +428,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Connector-board.kicad_pro",
+    "filename": "MOSFET-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -515,24 +515,48 @@
   },
   "sheets": [
     [
-      "9e0a4b39-2b30-4bec-9684-92acf902e3a8",
+      "eeff6235-4c56-4b47-a90f-883101560994",
       ""
     ],
     [
-      "95fc176b-4136-4066-bbee-7aae478650b3",
-      "max31855_breakout1"
+      "ed8a8d2e-acc7-4ab1-ad3e-27a6738380d1",
+      "Pyro 7"
     ],
     [
-      "0b5f2851-e438-4a3b-a01b-a2c5f3d6ab83",
-      "max31855_breakout4"
+      "24e6f781-7c8b-4994-87df-00244dd6f39a",
+      "Pyro 9"
     ],
     [
-      "13959a49-d0e2-4812-9ae8-3b9647a96e38",
-      "max31855_breakout2"
+      "893d1dd2-3918-4c33-bb19-565952861d30",
+      "Pyro 1"
     ],
     [
-      "7222f33b-abdc-4141-a2bb-e5303714b60e",
-      "max31855_breakout3"
+      "91bdbe40-1bb3-4c62-9e5c-60fa44689352",
+      "Pyro 3"
+    ],
+    [
+      "cd0c8342-bbee-4b11-b720-e7d030d8c579",
+      "Pyro 5"
+    ],
+    [
+      "b7c464b0-d133-4d7c-85db-a1e6fa29541a",
+      "Pyro 6"
+    ],
+    [
+      "f50c45b0-5df9-4e33-b685-87d9ca9631b8",
+      "Pyro 8"
+    ],
+    [
+      "17e1af1c-892c-44b5-9f21-13c67f8345c1",
+      "Pyro 10"
+    ],
+    [
+      "9834d00b-56eb-4364-ac20-1e65e4de6ea7",
+      "Pyro 2"
+    ],
+    [
+      "828e94c7-3d68-4f8b-8067-489ddf2104fa",
+      "Pyro 4"
     ]
   ],
   "text_variables": {}

@@ -558,8 +558,8 @@
         )
       )
       (symbol "PCIe_x16_1_1"
-        (pin passive line (at -15.24 39.37 0) (length 3.81)
-          (name "~{PRSNT1}" (effects (font (size 1.27 1.27))))
+        (pin passive line (at -2.54 72.39 270) (length 3.81) hide
+          (name "+12V" (effects (font (size 1.27 1.27))))
           (number "A1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 0 72.39 270) (length 3.81) hide
@@ -2653,7 +2653,7 @@
     (property "Value" "Bus_PCI_Express_x16" (at 64.4241 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x16" (at 62.23 81.28 0)
+    (property "Footprint" "PCIe_x16_DAQ:Custom-16x-PCIELock" (at 62.23 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63" (at 60.96 110.49 0)

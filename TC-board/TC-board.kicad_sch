@@ -2597,7 +2597,7 @@
     (property "Value" "PCIe_x16" (at 42.8341 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x16" (at 40.64 73.66 0)
+    (property "Footprint" "PCIe_16x_DAQ:Custom-16x-PCIELock" (at 40.64 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63" (at 39.37 102.87 0)

@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\bhaya\Desktop\star\github\le2-pcb-hardware\flight-module\Power-board\Power-board.kicad_sch</source>
+    <date>2/18/2024 5:58:37 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power-board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5462cc90-1176-4c0f-9206-74da6fac2e26</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>917ca2b0-3eb4-4225-8e14-b1e3dcee279d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b3eef09-5229-4dee-8ad0-5521820894d7</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22nF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03b17aa3-6751-436c-89ec-7e271ffc7244</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce70005a-e797-4e83-a655-6d45f1e9ea0a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22a69f23-8766-4c55-b9f2-dfc76d6ce136</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22 µF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e095dca4-3c40-4875-bedb-fe361cd37e4b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22nF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f5af66f-3bbf-4585-bb1e-c4766b89e7d7</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22nF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>519efcb1-9a9f-4cf1-883e-1026ac63488e</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22nF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e52a9a7-c65c-479f-96ea-aba43d907ff3</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1µF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed56108-2052-4c4d-9b01-7f6a1872bcba</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9244015a-65c3-4c7f-a555-e40c9d088c51</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>D_Schottky</value>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b002097b-8ce6-4a7e-91bf-8497e90d9d49</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>D_Schottky</value>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac899c77-bf98-4295-bc0f-a858c34e8d43</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>6A Fuse</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca0a1460-3ca8-4509-b160-722f4cabaef6</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>500mA Fuse</value>
+      <footprint>Fuse:Fuse_0603_1608Metric</footprint>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>897bc546-a6d3-4d13-8f7f-63b7d83100dc</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>500mA Fuse</value>
+      <footprint>Fuse:Fuse_0603_1608Metric</footprint>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98464168-643c-4410-9d2d-9202037d57cd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Stack_Shape</value>
+      <libsource lib="Stack_Shape" part="Stack_Shape" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9355d506-89b5-42c4-955b-e72eb1fd5d7f 08d7cf8d-399c-46e7-938a-bc57efe56ff2</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>POWER</value>
+      <footprint>Connector:Banana_Jack_2Pin</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3addb6be-7966-4b04-a903-4eb65d5eed3b</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>XT60-M</value>
+      <footprint>XT60-M:AMASS_XT60-M</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda</field>
+        <field name="Description">
+Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V
+</field>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">16.00 mm</field>
+        <field name="MF">AMASS</field>
+        <field name="MP">XT60-M</field>
+        <field name="PARTREV">V1.2</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="XT60-LiPO" part="XT60-M" description=""/>
+      <property name="MF" value="AMASS"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="16.00 mm"/>
+      <property name="Package" value="Package"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="V1.2"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"/>
+      <property name="MP" value="XT60-M"/>
+      <property name="Description" value="&#xA;Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V&#xA;"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="AMASS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b3f965d-4542-4dd3-a6ed-8ec0bb3959ec</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fc50795-36a8-452d-987b-b2957c60b2ce</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dac519ae-27b8-4c97-aa06-a9c5e792c0c8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AZ1117IH-3.3TRG1</value>
+      <footprint>AZ1117IH-3:SOT230P700X185-4N</footprint>
+      <datasheet>AZ1117IH-3.3TRG1</datasheet>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda</field>
+        <field name="Description">
+Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3
+</field>
+        <field name="MANUFACTURER">Diodes Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.85 mm</field>
+        <field name="MF">Diodes Inc.</field>
+        <field name="MP">AZ1117IH-3.3TRG1</field>
+        <field name="PARTREV">2-2</field>
+        <field name="Package">SOT-223 Diodes Inc.</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490259&amp;manufacturer=Diodes Inc.&amp;part_name=AZ1117IH-3.3TRG1&amp;search_term=az1117ih-3.3trg1</field>
+        <field name="SNAPEDA_PACKAGE_ID">6532</field>
+        <field name="SNAPEDA_PN">AZ1117IH-3.3TRG1</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="AZ1117IH-3.3TRG1" part="AZ1117IH-3.3TRG1" description=""/>
+      <property name="MF" value="Diodes Inc."/>
+      <property name="SNAPEDA_PACKAGE_ID" value="6532"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.85 mm"/>
+      <property name="Price" value="None"/>
+      <property name="Package" value="SOT-223 Diodes Inc."/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="2-2"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap"/>
+      <property name="MP" value="AZ1117IH-3.3TRG1"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490259&amp;manufacturer=Diodes Inc.&amp;part_name=AZ1117IH-3.3TRG1&amp;search_term=az1117ih-3.3trg1"/>
+      <property name="Description" value="&#xA;Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3&#xA;"/>
+      <property name="MANUFACTURER" value="Diodes Inc."/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="AZ1117IH-3.3TRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cc89ce1-b7c7-402e-a74d-26c4c666ddb2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS4H160BQPWPRQ1</value>
+      <footprint>PWP0028C_N</footprint>
+      <datasheet>TPS4H160BQPWPRQ1</datasheet>
+      <libsource lib="TPS4" part="TPS4H160BQPWPRQ1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <property name="ki_keywords" value="TPS4H160BQPWPRQ1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0577639-9af2-4377-b035-1700bb0ee609</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AZ1117IH-5TRG1</value>
+      <footprint>AZ1117IH-3:SOT230P700X185-4N</footprint>
+      <datasheet>AZ1117IH-3.3TRG1</datasheet>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda</field>
+        <field name="Description">
+Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3
+</field>
+        <field name="MANUFACTURER">Diodes Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.85 mm</field>
+        <field name="MF">Diodes Inc.</field>
+        <field name="MP">AZ1117IH-3.3TRG1</field>
+        <field name="PARTREV">2-2</field>
+        <field name="Package">SOT-223 Diodes Inc.</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490259&amp;manufacturer=Diodes Inc.&amp;part_name=AZ1117IH-3.3TRG1&amp;search_term=az1117ih-3.3trg1</field>
+        <field name="SNAPEDA_PACKAGE_ID">6532</field>
+        <field name="SNAPEDA_PN">AZ1117IH-3.3TRG1</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="AZ1117IH-3.3TRG1" part="AZ1117IH-3.3TRG1" description=""/>
+      <property name="MF" value="Diodes Inc."/>
+      <property name="SNAPEDA_PACKAGE_ID" value="6532"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.85 mm"/>
+      <property name="Price" value="None"/>
+      <property name="Package" value="SOT-223 Diodes Inc."/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="2-2"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap"/>
+      <property name="MP" value="AZ1117IH-3.3TRG1"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490259&amp;manufacturer=Diodes Inc.&amp;part_name=AZ1117IH-3.3TRG1&amp;search_term=az1117ih-3.3trg1"/>
+      <property name="Description" value="&#xA;Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3&#xA;"/>
+      <property name="MANUFACTURER" value="Diodes Inc."/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="AZ1117IH-3.3TRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8faf49c0-4291-43e4-958e-16c559180938</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AZ1117IH-3.3TRG1" part="AZ1117IH-3.3TRG1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117IH-3.3TRG1</field>
+        <field name="Footprint">AZ1117IH-3.3TRG1:SOT230P700X185-4N</field>
+        <field name="MF">Diodes Inc.</field>
+        <field name="SNAPEDA_PACKAGE_ID">6532</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.85 mm</field>
+        <field name="Price">None</field>
+        <field name="Package">SOT-223 Diodes Inc.</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">2-2</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap</field>
+        <field name="MP">AZ1117IH-3.3TRG1</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490259&amp;manufacturer=Diodes Inc.&amp;part_name=AZ1117IH-3.3TRG1&amp;search_term=az1117ih-3.3trg1</field>
+        <field name="Description">
+Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3
+</field>
+        <field name="MANUFACTURER">Diodes Inc.</field>
+        <field name="Availability">In Stock</field>
+        <field name="SNAPEDA_PN">AZ1117IH-3.3TRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUTPUT" type="output"/>
+        <pin num="3" name="INPUT" type="input"/>
+        <pin num="4" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Stack_Shape" part="Stack_Shape">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Stack_Shape</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="Pin_1" type="passive"/>
+        <pin num="A2" name="Pin_2" type="passive"/>
+        <pin num="A3" name="Pin_3" type="passive"/>
+        <pin num="A4" name="Pin_4" type="passive"/>
+        <pin num="A5" name="Pin_5" type="passive"/>
+        <pin num="A6" name="Pin_6" type="passive"/>
+        <pin num="A7" name="Pin_7" type="passive"/>
+        <pin num="A8" name="Pin_8" type="passive"/>
+        <pin num="A9" name="Pin_9" type="passive"/>
+        <pin num="A10" name="Pin_10" type="passive"/>
+        <pin num="A11" name="Pin_11" type="passive"/>
+        <pin num="A12" name="Pin_12" type="passive"/>
+        <pin num="A13" name="Pin_13" type="passive"/>
+        <pin num="A14" name="Pin_14" type="passive"/>
+        <pin num="A15" name="Pin_15" type="passive"/>
+        <pin num="A16" name="Pin_16" type="passive"/>
+        <pin num="A17" name="Pin_17" type="passive"/>
+        <pin num="A18" name="Pin_18" type="passive"/>
+        <pin num="A19" name="Pin_19" type="passive"/>
+        <pin num="A20" name="Pin_20" type="passive"/>
+        <pin num="A21" name="Pin_21" type="passive"/>
+        <pin num="A22" name="Pin_22" type="passive"/>
+        <pin num="A23" name="Pin_23" type="passive"/>
+        <pin num="A24" name="Pin_24" type="passive"/>
+        <pin num="A25" name="Pin_25" type="passive"/>
+        <pin num="A26" name="Pin_26" type="passive"/>
+        <pin num="A27" name="Pin_27" type="passive"/>
+        <pin num="A28" name="Pin_28" type="passive"/>
+        <pin num="A29" name="Pin_29" type="passive"/>
+        <pin num="A30" name="Pin_30" type="passive"/>
+        <pin num="A31" name="Pin_31" type="passive"/>
+        <pin num="A32" name="Pin_32" type="passive"/>
+        <pin num="A33" name="Pin_33" type="passive"/>
+        <pin num="A34" name="Pin_34" type="passive"/>
+        <pin num="A35" name="Pin_35" type="passive"/>
+        <pin num="A36" name="Pin_36" type="passive"/>
+        <pin num="A37" name="Pin_37" type="passive"/>
+        <pin num="A38" name="Pin_38" type="passive"/>
+        <pin num="A39" name="Pin_39" type="passive"/>
+        <pin num="A40" name="Pin_40" type="passive"/>
+        <pin num="B1" name="Pin_1" type="passive"/>
+        <pin num="B2" name="Pin_2" type="passive"/>
+        <pin num="B3" name="Pin_3" type="passive"/>
+        <pin num="B4" name="Pin_4" type="passive"/>
+        <pin num="B5" name="Pin_5" type="passive"/>
+        <pin num="B6" name="Pin_6" type="passive"/>
+        <pin num="B7" name="Pin_7" type="passive"/>
+        <pin num="B8" name="Pin_8" type="passive"/>
+        <pin num="B9" name="Pin_9" type="passive"/>
+        <pin num="B10" name="Pin_10" type="passive"/>
+        <pin num="B11" name="Pin_11" type="passive"/>
+        <pin num="B12" name="Pin_12" type="passive"/>
+        <pin num="B13" name="Pin_13" type="passive"/>
+        <pin num="B14" name="Pin_14" type="passive"/>
+        <pin num="B15" name="Pin_15" type="passive"/>
+        <pin num="B16" name="Pin_16" type="passive"/>
+        <pin num="B17" name="Pin_17" type="passive"/>
+        <pin num="B18" name="Pin_18" type="passive"/>
+        <pin num="B19" name="Pin_19" type="passive"/>
+        <pin num="B20" name="Pin_20" type="passive"/>
+        <pin num="B21" name="Pin_21" type="passive"/>
+        <pin num="B22" name="Pin_22" type="passive"/>
+        <pin num="B23" name="Pin_23" type="passive"/>
+        <pin num="B24" name="Pin_24" type="passive"/>
+        <pin num="B25" name="Pin_25" type="passive"/>
+        <pin num="B26" name="Pin_26" type="passive"/>
+        <pin num="B27" name="Pin_27" type="passive"/>
+        <pin num="B28" name="Pin_28" type="passive"/>
+        <pin num="B29" name="Pin_29" type="passive"/>
+        <pin num="B30" name="Pin_30" type="passive"/>
+        <pin num="B31" name="Pin_31" type="passive"/>
+        <pin num="B32" name="Pin_32" type="passive"/>
+        <pin num="B33" name="Pin_33" type="passive"/>
+        <pin num="B34" name="Pin_34" type="passive"/>
+        <pin num="B35" name="Pin_35" type="passive"/>
+        <pin num="B36" name="Pin_36" type="passive"/>
+        <pin num="B37" name="Pin_37" type="passive"/>
+        <pin num="B38" name="Pin_38" type="passive"/>
+        <pin num="B39" name="Pin_39" type="passive"/>
+        <pin num="B40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS4" part="TPS4H160BQPWPRQ1">
+      <docs>TPS4H160BQPWPRQ1</docs>
+      <footprints>
+        <fp>PWP0028C_N</fp>
+        <fp>PWP0028C_M</fp>
+        <fp>PWP0028C_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS4H160BQPWPRQ1</field>
+        <field name="Footprint">PWP0028C_N</field>
+        <field name="Datasheet">TPS4H160BQPWPRQ1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="NC" type="unspecified"/>
+        <pin num="3" name="IN1" type="input"/>
+        <pin num="4" name="IN2" type="input"/>
+        <pin num="5" name="IN3" type="input"/>
+        <pin num="6" name="IN4" type="input"/>
+        <pin num="7" name="ST1_SEH_N" type="bidirectional"/>
+        <pin num="8" name="ST2_SEL_N" type="bidirectional"/>
+        <pin num="9" name="ST3_FAULT_N" type="open_collector"/>
+        <pin num="10" name="ST4_CS_N" type="bidirectional"/>
+        <pin num="11" name="CL" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="THER" type="input"/>
+        <pin num="14" name="DIAG_EN" type="input"/>
+        <pin num="15" name="OUT4" type="output"/>
+        <pin num="16" name="OUT4" type="output"/>
+        <pin num="17" name="OUT3" type="output"/>
+        <pin num="18" name="OUT3" type="output"/>
+        <pin num="19" name="NC" type="unspecified"/>
+        <pin num="20" name="VS" type="power_in"/>
+        <pin num="21" name="VS" type="power_in"/>
+        <pin num="22" name="VS" type="power_in"/>
+        <pin num="23" name="VS" type="power_in"/>
+        <pin num="24" name="NC" type="unspecified"/>
+        <pin num="25" name="OUT2" type="output"/>
+        <pin num="26" name="OUT2" type="output"/>
+        <pin num="27" name="OUT1" type="output"/>
+        <pin num="28" name="OUT1" type="output"/>
+        <pin num="29" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="XT60-LiPO" part="XT60-M">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XT60-M</field>
+        <field name="Footprint">XT60-M:AMASS_XT60-M</field>
+        <field name="MF">AMASS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">16.00 mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">V1.2</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap</field>
+        <field name="MP">XT60-M</field>
+        <field name="Description">
+Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">AMASS</field>
+      </fields>
+      <pins>
+        <pin num="N" name="NEG" type="passive"/>
+        <pin num="P" name="POS" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Stack_Shape">
+      <uri>C:\Users\bhaya\Desktop\star\github\le2-pcb-hardware\flight-module\Power-board/../../hardware-sch-blocks/ALULA-FLIGHT/Stack_Shape/Stack_Shape.kicad_sym</uri>
+    </library>
+    <library logical="TPS4">
+      <uri>C:/Users/bhaya/OneDrive/Documents/KiCad/7.0/symbols/2024-02-18_21-10-36.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="A2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="A6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="A7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="A8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="4" name="/BAT1_+">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/BAT1_+_pre">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="P" pinfunction="POS" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="12C_SCL">
+      <node ref="J1" pin="B3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="7" name="12C_SDA">
+      <node ref="J1" pin="B1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="ETH_MAIIN+">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="OUT3" pintype="output"/>
+      <node ref="U3" pin="18" pinfunction="OUT3" pintype="output"/>
+    </net>
+    <net code="9" name="ETH_MAIN+">
+      <node ref="J1" pin="A19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J1" pin="A20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="10" name="ETH_VENT+">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J1" pin="A16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="OUT2" pintype="output"/>
+      <node ref="U3" pin="26" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="11" name="FSPI_MISO">
+      <node ref="J1" pin="B4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="12" name="FSPI_MOSI">
+      <node ref="J1" pin="B6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="13" name="FSPI_SCK">
+      <node ref="J1" pin="B2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="A13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="A14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J1" pin="A17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J1" pin="A18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J1" pin="A21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J1" pin="A22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J1" pin="A25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J1" pin="A26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J1" pin="A3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J1" pin="B17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J1" pin="B18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J1" pin="B25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J1" pin="B26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J1" pin="B33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J1" pin="B34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="J1" pin="B5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="B8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="N" pinfunction="NEG" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="LOX_VENT+">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="OUT1" pintype="output"/>
+      <node ref="U3" pin="28" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-OUTPUT)">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(U4-OUTPUT)">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="20" name="PT1_A+">
+      <node ref="J1" pin="B15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="21" name="PT1_E+">
+      <node ref="J1" pin="B11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="22" name="PT1_E-">
+      <node ref="J1" pin="B13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="23" name="PT2_A+">
+      <node ref="J1" pin="B23" pinfunction="Pin_23" pintype="passive"/>
+    </net>
+    <net code="24" name="PT2_E+">
+      <node ref="J1" pin="B19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="25" name="PT2_E-">
+      <node ref="J1" pin="B21" pinfunction="Pin_21" pintype="passive"/>
+    </net>
+    <net code="26" name="PT3_A+">
+      <node ref="J1" pin="B31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="27" name="PT3_E+">
+      <node ref="J1" pin="B27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="28" name="PT3_E-">
+      <node ref="J1" pin="B29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="29" name="PT4_A+">
+      <node ref="J1" pin="B39" pinfunction="Pin_39" pintype="passive"/>
+    </net>
+    <net code="30" name="PT4_E+">
+      <node ref="J1" pin="B35" pinfunction="Pin_35" pintype="passive"/>
+    </net>
+    <net code="31" name="PT4_E-">
+      <node ref="J1" pin="B37" pinfunction="Pin_37" pintype="passive"/>
+    </net>
+    <net code="32" name="PT5_A+">
+      <node ref="J1" pin="B32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="33" name="PT5_E+">
+      <node ref="J1" pin="B28" pinfunction="Pin_28" pintype="passive"/>
+    </net>
+    <net code="34" name="PT5_E-">
+      <node ref="J1" pin="B30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="35" name="PT6_A+">
+      <node ref="J1" pin="B40" pinfunction="Pin_40" pintype="passive"/>
+    </net>
+    <net code="36" name="PT6_E+">
+      <node ref="J1" pin="B36" pinfunction="Pin_36" pintype="passive"/>
+    </net>
+    <net code="37" name="PT6_E-">
+      <node ref="J1" pin="B38" pinfunction="Pin_38" pintype="passive"/>
+    </net>
+    <net code="38" name="PWR_SUP">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J1" pin="A36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J1" pin="A37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J1" pin="A38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J1" pin="A39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J1" pin="A40" pinfunction="Pin_40" pintype="passive"/>
+    </net>
+    <net code="39" name="PYRO1EN">
+      <node ref="J1" pin="B7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="40" name="PYRO2EN">
+      <node ref="J1" pin="B20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="41" name="PYRO3EN">
+      <node ref="J1" pin="B22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="IN3" pintype="input"/>
+    </net>
+    <net code="42" name="PYRO4EN">
+      <node ref="J1" pin="B24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="IN4" pintype="input"/>
+    </net>
+    <net code="43" name="PYRO_EX+">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J1" pin="A24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="OUT4" pintype="output"/>
+      <node ref="U3" pin="16" pinfunction="OUT4" pintype="output"/>
+    </net>
+    <net code="44" name="TC1_CS">
+      <node ref="J1" pin="B10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="45" name="TC2_CS">
+      <node ref="J1" pin="B12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="46" name="TC3_CS">
+      <node ref="J1" pin="B14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="47" name="TC4_CS">
+      <node ref="J1" pin="B16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="48" name="V_ALL+">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="INPUT" pintype="input"/>
+      <node ref="U3" pin="20" pinfunction="VS" pintype="power_in"/>
+      <node ref="U3" pin="21" pinfunction="VS" pintype="power_in"/>
+      <node ref="U3" pin="22" pinfunction="VS" pintype="power_in"/>
+      <node ref="U3" pin="23" pinfunction="VS" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="INPUT" pintype="input"/>
+    </net>
+    <net code="49" name="unconnected-(J1A-Pin_27-PadA27)">
+      <node ref="J1" pin="A27" pinfunction="Pin_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J1A-Pin_28-PadA28)">
+      <node ref="J1" pin="A28" pinfunction="Pin_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J1A-Pin_29-PadA29)">
+      <node ref="J1" pin="A29" pinfunction="Pin_29" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J1A-Pin_30-PadA30)">
+      <node ref="J1" pin="A30" pinfunction="Pin_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J1A-Pin_31-PadA31)">
+      <node ref="J1" pin="A31" pinfunction="Pin_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J1A-Pin_32-PadA32)">
+      <node ref="J1" pin="A32" pinfunction="Pin_32" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J1A-Pin_33-PadA33)">
+      <node ref="J1" pin="A33" pinfunction="Pin_33" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J1A-Pin_34-PadA34)">
+      <node ref="J1" pin="A34" pinfunction="Pin_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-VOUT-Pad4)">
+      <node ref="U1" pin="4" pinfunction="VOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-CL-Pad11)">
+      <node ref="U3" pin="11" pinfunction="CL" pintype="output+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-DIAG_EN-Pad14)">
+      <node ref="U3" pin="14" pinfunction="DIAG_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U3-GND-Pad1)">
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3-GND-Pad12)">
+      <node ref="U3" pin="12" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3-NC-Pad2)">
+      <node ref="U3" pin="2" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U3-NC-Pad19)">
+      <node ref="U3" pin="19" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U3-NC-Pad24)">
+      <node ref="U3" pin="24" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U3-PAD-Pad29)">
+      <node ref="U3" pin="29" pinfunction="PAD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-ST1_SEH_N-Pad7)">
+      <node ref="U3" pin="7" pinfunction="ST1_SEH_N" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(U3-ST2_SEL_N-Pad8)">
+      <node ref="U3" pin="8" pinfunction="ST2_SEL_N" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U3-ST3_FAULT_N-Pad9)">
+      <node ref="U3" pin="9" pinfunction="ST3_FAULT_N" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3-ST4_CS_N-Pad10)">
+      <node ref="U3" pin="10" pinfunction="ST4_CS_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U3-THER-Pad13)">
+      <node ref="U3" pin="13" pinfunction="THER" pintype="input+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U4-VOUT-Pad4)">
+      <node ref="U4" pin="4" pinfunction="VOUT" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

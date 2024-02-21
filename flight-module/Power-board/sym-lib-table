@@ -1,4 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "ESP32")(type "Legacy")(uri "${KIPRJMOD}/../../hardware-sch-blocks/ELLIE/symbols/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
   (lib (name "PCF8575DW")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/PCF8575DW/PCF8575DW.kicad_sym")(options "")(descr ""))
   (lib (name "10018783-10213TLF")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/10018783-10213TLF/10018783-10213TLF.kicad_sym")(options "")(descr ""))

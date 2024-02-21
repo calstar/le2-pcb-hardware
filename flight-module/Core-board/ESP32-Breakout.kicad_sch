@@ -1736,10 +1736,10 @@
     (property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" (at 33.02 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 585d14db-ae59-4320-b8bd-45b29b40024c))
-    (pin "1" (uuid 585d14db-ae59-4320-b8bd-45b29b40024c))
-    (pin "2" (uuid 01f134df-4f2b-4472-8779-b92228915cbc))
-    (pin "2" (uuid 01f134df-4f2b-4472-8779-b92228915cbc))
+    (pin "1" (uuid 585d14db-ae59-4320-b8bd-45b29b40024e))
+    (pin "1" (uuid 585d14db-ae59-4320-b8bd-45b29b40024e))
+    (pin "2" (uuid 01f134df-4f2b-4472-8779-b92228915cbe))
+    (pin "2" (uuid 01f134df-4f2b-4472-8779-b92228915cbe))
     (instances
       (project "Core-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/9ddfa1ea-66ee-4174-a94e-e68577e9309d"
@@ -1921,10 +1921,10 @@
     (property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" (at 53.34 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cba91276-fb0b-4fe5-b7ac-f1eb680c9d0d))
-    (pin "1" (uuid cba91276-fb0b-4fe5-b7ac-f1eb680c9d0d))
-    (pin "2" (uuid 16f6a51b-6ea1-469c-a3aa-582ccedc5fee))
-    (pin "2" (uuid 16f6a51b-6ea1-469c-a3aa-582ccedc5fee))
+    (pin "1" (uuid cba91276-fb0b-4fe5-b7ac-f1eb680c9d0f))
+    (pin "1" (uuid cba91276-fb0b-4fe5-b7ac-f1eb680c9d0f))
+    (pin "2" (uuid 16f6a51b-6ea1-469c-a3aa-582ccedc5ff0))
+    (pin "2" (uuid 16f6a51b-6ea1-469c-a3aa-582ccedc5ff0))
     (instances
       (project "Core-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/9ddfa1ea-66ee-4174-a94e-e68577e9309d"

@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "Stack_Shape")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/Flight_Stack_Shape/Stack_Shape.kicad_sym")(options "")(descr ""))
 )

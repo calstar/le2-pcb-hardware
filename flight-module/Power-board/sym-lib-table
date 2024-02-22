@@ -4,4 +4,5 @@
   (lib (name "PCF8575DW")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/PCF8575DW/PCF8575DW.kicad_sym")(options "")(descr ""))
   (lib (name "10018783-10213TLF")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/10018783-10213TLF/10018783-10213TLF.kicad_sym")(options "")(descr ""))
   (lib (name "Stack_Shape")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/ALULA-FLIGHT/Stack_Shape/Stack_Shape.kicad_sym")(options "")(descr ""))
+  (lib (name "D_Schottky")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/KiCADv6/2024-02-22_03-19-15.kicad_sym")(options "")(descr ""))
 )

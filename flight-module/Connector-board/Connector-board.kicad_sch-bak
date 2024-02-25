@@ -1699,6 +1699,9 @@
   (junction (at 24.384 77.343) (diameter 0) (color 0 0 0 0)
     (uuid 0d543d64-da96-4ae4-8f92-f1c7bcd71743)
   )
+  (junction (at 115.697 165.1) (diameter 0) (color 0 0 0 0)
+    (uuid 10f19091-ac7b-43c2-b0c3-b824a93a1c20)
+  )
   (junction (at 170.942 85.344) (diameter 0) (color 0 0 0 0)
     (uuid 1aa296f9-1304-4e9d-816c-6f9c97b1e6eb)
   )
@@ -1750,9 +1753,6 @@
   (junction (at 176.276 56.896) (diameter 0) (color 0 0 0 0)
     (uuid b8546536-da9a-47ce-aefe-166f3f6eb344)
   )
-  (junction (at 115.951 165.1) (diameter 0) (color 0 0 0 0)
-    (uuid bd2882ce-eba8-4423-ab2d-990f3b2dffd4)
-  )
   (junction (at 116.078 175.26) (diameter 0) (color 0 0 0 0)
     (uuid d0050ca0-46eb-4c3a-88dc-403f2fcc2a9f)
   )
@@ -1773,9 +1773,6 @@
   )
   (junction (at 75.692 154.432) (diameter 0) (color 0 0 0 0)
     (uuid f642d0aa-6984-44de-8e15-73ea4ae66464)
-  )
-  (junction (at 115.951 154.94) (diameter 0) (color 0 0 0 0)
-    (uuid fec23386-f797-4b07-acdc-0542dcd5640b)
   )
 
   (no_connect (at 73.406 162.052) (uuid 01583078-9fe6-4b68-b4f7-d60e8a097e4a))
@@ -1824,7 +1821,7 @@
     (stroke (width 0) (type default))
     (uuid 0824d671-145a-4ef3-ba51-c286e83cce5e)
   )
-  (wire (pts (xy 115.697 165.1) (xy 115.951 165.1))
+  (wire (pts (xy 115.697 165.1) (xy 124.714 165.1))
     (stroke (width 0) (type default))
     (uuid 0b717f13-6f39-4a27-86da-04de785295f4)
   )
@@ -2188,10 +2185,6 @@
     (stroke (width 0) (type default))
     (uuid e4bd6e5f-1fd5-4618-8060-d1e5b8f04b6b)
   )
-  (wire (pts (xy 115.951 165.1) (xy 124.714 165.1))
-    (stroke (width 0) (type default))
-    (uuid e54a6d82-1fd6-4e8f-bb3f-fb2358caf27e)
-  )
   (wire (pts (xy 74.422 133.985) (xy 74.422 134.112))
     (stroke (width 0) (type default))
     (uuid e6569e1e-f923-4673-a614-d022cb732316)
@@ -2208,9 +2201,9 @@
     (stroke (width 0) (type default))
     (uuid f27f9e53-de3a-40dc-b2bc-9c32fcb46f2e)
   )
-  (wire (pts (xy 115.951 154.94) (xy 115.951 165.1))
+  (wire (pts (xy 115.697 155.067) (xy 115.697 165.1))
     (stroke (width 0) (type default))
-    (uuid f6424210-5ff2-4fe8-8601-db8053b4e808)
+    (uuid f48f891c-4516-45bd-9825-c54831b181e7)
   )
   (wire (pts (xy 184.658 91.186) (xy 186.182 91.186))
     (stroke (width 0) (type default))
@@ -2926,7 +2919,7 @@
   (symbol (lib_id "Connector:DB15_Female") (at 67.056 38.354 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02c53317-dc16-4373-a399-803684f32e2a)
-    (property "Reference" "GND_DSUB1" (at 74.168 37.211 0)
+    (property "Reference" "GND_DSUB" (at 74.168 37.211 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DB15_Female" (at 71.12 39.624 0)
@@ -2956,7 +2949,7 @@
     (instances
       (project "Connector-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "GND_DSUB1") (unit 1)
+          (reference "GND_DSUB") (unit 1)
         )
       )
     )
@@ -3040,7 +3033,7 @@
   (symbol (lib_id "Connector:DE9_Receptacle") (at 76.962 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d663c30-31e1-4507-bfd7-122e77665596)
-    (property "Reference" "4TC_DSUB1" (at 82.55 93.345 0)
+    (property "Reference" "4TC_DSUB" (at 82.55 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DB9_Female" (at 82.55 95.885 0)
@@ -3064,7 +3057,7 @@
     (instances
       (project "Connector-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "4TC_DSUB1") (unit 1)
+          (reference "4TC_DSUB") (unit 1)
         )
       )
     )
@@ -3226,7 +3219,7 @@
   (symbol (lib_id "Connector:DE9_Receptacle") (at 39.751 79.883 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ae5fff5-e436-400d-8c6a-c56aa088dc11)
-    (property "Reference" "SOLENOIDS_DSUB1" (at 44.45 78.613 0)
+    (property "Reference" "SOLENOIDS_DSUB" (at 44.45 78.613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DB9_Female" (at 44.45 81.153 0)
@@ -3250,7 +3243,7 @@
     (instances
       (project "Connector-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "SOLENOIDS_DSUB1") (unit 1)
+          (reference "SOLENOIDS_DSUB") (unit 1)
         )
       )
     )
@@ -3285,7 +3278,7 @@
   (symbol (lib_id "Connector:DB25_Receptacle") (at 106.68 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40312e3e-edaf-42ec-9e62-b0e3082162e8)
-    (property "Reference" "PT_DSUB1" (at 111.76 55.88 0)
+    (property "Reference" "PT_DSUB" (at 111.76 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DB25_Receptacle" (at 111.76 58.42 0)
@@ -3325,7 +3318,7 @@
     (instances
       (project "Connector-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "PT_DSUB1") (unit 1)
+          (reference "PT_DSUB") (unit 1)
         )
       )
     )
@@ -3359,7 +3352,7 @@
   (symbol (lib_id "Stack_Shape:Stack_Shape") (at 56.896 160.782 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a2a76c8-bc05-4e68-b4e3-2e18967d0f56)
-    (property "Reference" "J1" (at 55.6259 127.8721 0)
+    (property "Reference" "J2" (at 55.6259 127.8721 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Stack_Shape" (at 55.6259 130.409 0)
@@ -3454,7 +3447,7 @@
     (instances
       (project "Connector-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3818,7 +3811,7 @@
   (symbol (lib_id "Stack_Shape:Stack_Shape") (at 143.764 161.29 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab317b40-65b8-4e85-b696-98c0bb3ca3dc)
-    (property "Reference" "J1" (at 142.494 128.3802 0)
+    (property "Reference" "J2" (at 142.494 128.3802 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Stack_Shape" (at 142.494 130.9171 0)
@@ -3913,7 +3906,7 @@
     (instances
       (project "Connector-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "J1") (unit 2)
+          (reference "J2") (unit 2)
         )
       )
     )

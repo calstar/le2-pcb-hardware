@@ -1,4 +1,25 @@
-22455037285302357
+22475541567706375
+74HC4050D
+SO16
+<b>Small Outline package</b> 150 mil
+
+0
+16
+16
+10018783-10213TLF
+AMPHENOL_10018783-10213TLF
+
+
+0
+164
+164
+AZ1117IH-3
+SOT230P700X185-4N
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52968,6 +52989,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DSUB_622-015-260-042
+DSUB_622-015-260-042
+15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 33.3mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 33.3mm mounting-hole-offset 33.3mm
+0
+17
+16
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -54935,6 +54963,41 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+Ellie_Project_Footprints
+DEANS
+
+
+0
+2
+2
+Ellie_Project_Footprints
+HX711_Breakout_Board
+
+
+0
+10
+10
+Ellie_Project_Footprints
+MODULE_ESP32-DEVKITC-32D
+
+
+0
+38
+38
+Ellie_Project_Footprints
+Relay_Breakout
+
+
+0
+4
+4
+Ellie_Project_Footprints
+SD_Card_Breakout
+
+
+0
+8
+8
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -85868,6 +85931,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Stack_Shape
+Stack_Shape
+
+
+0
+80
+80
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -92504,3 +92574,17 @@ varistor
 0
 2
 2
+XT60-M
+AMASS_XT60-M
+
+
+0
+2
+2
+XTSD04GLGEAG
+SON127P600X800X95-8N
+
+
+0
+8
+8

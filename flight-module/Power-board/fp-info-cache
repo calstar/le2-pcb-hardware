@@ -1,4 +1,4 @@
-22670574277758405
+22670575311075484
 74HC4050D
 SO16
 <b>Small Outline package</b> 150 mil
@@ -11,8 +11,8 @@ SOT223_AZ1117I_6P5X3P5_DIO
 
 AZ1117IH-3.3TRG1 
 0
-3
-3
+4
+4
 AZ1117IH-3
 SOT223_AZ1117I_6P5X3P5_DIO-L
 
@@ -87512,7 +87512,7 @@ PWP0028C_N
 TPS4H160BQPWPRQ1 
 0
 50
-30
+29
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

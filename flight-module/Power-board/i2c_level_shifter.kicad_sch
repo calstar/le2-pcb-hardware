@@ -389,7 +389,7 @@
   (symbol (lib_id "Device:R_Small") (at 108.712 125.984 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c7873e7-f402-4d5f-9d5a-662cdf923e71)
-    (property "Reference" "R20" (at 110.2106 124.7719 0)
+    (property "Reference" "R5" (at 110.2106 124.7719 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 110.2106 127.1961 0)
@@ -406,7 +406,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "R20") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -415,7 +415,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 117.094 103.124 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 473047e4-716f-4104-9b70-e40f1bfdf82d)
-    (property "Reference" "Q6" (at 117.094 109.2891 90)
+    (property "Reference" "Q1" (at 117.094 109.2891 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NMOS" (at 117.094 111.7133 90)
@@ -442,7 +442,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "Q6") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -451,7 +451,7 @@
   (symbol (lib_id "Device:R_Small") (at 108.966 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9003209b-3fb3-4fbe-baf8-69b8e9ad78a5)
-    (property "Reference" "R21" (at 110.4646 99.1179 0)
+    (property "Reference" "R1" (at 110.4646 99.1179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 110.4646 101.5421 0)
@@ -468,7 +468,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "R21") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -477,7 +477,7 @@
   (symbol (lib_id "Device:R_Small") (at 125.222 125.984 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2072949-f2e3-4ec0-8436-7f1c72513959)
-    (property "Reference" "R22" (at 126.7206 124.7719 0)
+    (property "Reference" "R6" (at 126.7206 124.7719 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 126.7206 127.1961 0)
@@ -494,7 +494,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "R22") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -503,7 +503,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 157.734 101.092 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7b5df7e-02e4-4344-993c-e32cac5d5857)
-    (property "Reference" "J10" (at 158.4452 98.6099 0)
+    (property "Reference" "J4" (at 158.4452 98.6099 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Pin Jumper" (at 158.4452 101.0341 0)
@@ -520,7 +520,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "J10") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -529,7 +529,7 @@
   (symbol (lib_id "Device:R_Small") (at 125.476 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d99ed785-2395-42c7-8553-d06a2b1fe2e3)
-    (property "Reference" "R23" (at 126.9746 99.1179 0)
+    (property "Reference" "R2" (at 126.9746 99.1179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 126.9746 101.5421 0)
@@ -546,7 +546,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "R23") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -555,7 +555,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 157.48 124.968 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e10c85f3-d200-4f4e-a756-9640809d13cd)
-    (property "Reference" "J9" (at 158.1912 122.4859 0)
+    (property "Reference" "J5" (at 158.1912 122.4859 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Pin Jumper" (at 158.1912 124.9101 0)
@@ -572,7 +572,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "J9") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -581,7 +581,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 116.84 128.778 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e597157e-796e-4593-9b7c-4a82c9a9c584)
-    (property "Reference" "Q5" (at 116.84 134.9431 90)
+    (property "Reference" "Q2" (at 116.84 134.9431 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NMOS" (at 116.84 137.3673 90)
@@ -608,7 +608,7 @@
     (instances
       (project "Power-board"
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/27658330-53e6-419c-8f56-73f4d9006175"
-          (reference "Q5") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )

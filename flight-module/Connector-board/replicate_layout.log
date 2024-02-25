@@ -1,0 +1,21 @@
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Aug  8 2023, 05:38:28) [MSC v.1936 64 bit (AMD64)]'
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.7
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x00000213F9535EE0>
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U4 as a reference
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U4'
+Located on: ['max31855_breakout3']
+With filenames: ['max31855_breakout.kicad_sch']
+With sheet_id:['max31855_breakout3']
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U4', ['max31855_breakout3']), ('U1', ['max31855_breakout1']), ('U2', ['max31855_breakout4']), ('U3', ['max31855_breakout2'])]
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'max31855_breakout3', file:'max31855_breakout.kicad_sch'
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['max31855_breakout1'], ['max31855_breakout2'], ['max31855_breakout4']]
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['max31855_breakout3']
+02-24 11:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-24 11:31:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1648, 146)
+02-24 11:31:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1209, 146)
+02-24 11:32:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 321:User canceled the dialog

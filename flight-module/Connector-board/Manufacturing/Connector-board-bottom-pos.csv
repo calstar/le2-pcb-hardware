@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"4TC_DSUB1","DB9_Female","DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles",137.600000,-133.600000,180.000000,bottom
+"GND_DSUB1","DB15_Female","DSUB-15_Female_Vertical_P2.77x2.84mm_MountingHoles",205.545000,-127.620000,0.000000,bottom
+"PT_DSUB1","DB25_Receptacle","DSUB-25_Male_Vertical_P2.77x2.84mm_MountingHoles",157.515000,-81.140000,0.000000,bottom
+"SOLENOIDS_DSUB1","DB9_Female","DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles",171.660000,-97.980000,180.000000,bottom

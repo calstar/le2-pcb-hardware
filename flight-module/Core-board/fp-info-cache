@@ -1,4 +1,4 @@
-22230961269058959
+22229259159757402
 74HC4050D
 SO16
 <b>Small Outline package</b> 150 mil
@@ -65932,13 +65932,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCIE-164-02-X-D-TH
-SAMTEC_PCIE-164-02-X-D-TH
-
-
-0
-164
-164
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf

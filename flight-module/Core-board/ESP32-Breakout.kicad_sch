@@ -2293,7 +2293,7 @@
     (property "Value" "USB4105-GF-A" (at 80.01 85.9099 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "USB4105-GF-A:GCT_USB4105-GF-A" (at 80.01 100.33 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal" (at 80.01 100.33 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 80.01 100.33 0)

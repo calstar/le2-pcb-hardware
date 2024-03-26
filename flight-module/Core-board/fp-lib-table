@@ -10,4 +10,5 @@
   (lib (name "Stack_Shape")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/Flight_Stack_Shape/Stack_Shape.pretty")(options "")(descr ""))
   (lib (name "1825910-6")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/1825910-6")(options "")(descr ""))
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/LE2/USB4105-GF-A")(options "")(descr ""))
+  (lib (name "MicroUSB")(type "KiCad")(uri "${KIPRJMOD}/../../hardware-sch-blocks/ALULA-FLIGHT/10118194_0011LF")(options "")(descr ""))
 )

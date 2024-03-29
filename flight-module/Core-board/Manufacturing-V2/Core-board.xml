@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/dulanya/Desktop/le2-pcb-hardware/flight-module/Core-board/Core-board.kicad_sch</source>
-    <date>2024 February 25, Sunday 11:29:58</date>
+    <date>2024 March 29, Friday 09:04:10</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -539,7 +539,7 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
-      <tstamps>ff7e95fd-7543-4c3f-a11c-6462f442acac</tstamps>
+      <tstamps>00643028-f403-46f1-814a-e787a5206133</tstamps>
     </comp>
     <comp ref="C10">
       <value>1uF</value>
@@ -550,7 +550,7 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
-      <tstamps>2c625b65-d432-4101-bfba-fb2c33548d8f</tstamps>
+      <tstamps>318b4976-30dd-46c3-ae33-66c867f1d77e</tstamps>
     </comp>
     <comp ref="C11">
       <value>10uF</value>
@@ -595,7 +595,7 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
       <property name="ki_description" value="Schottky diode"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
-      <tstamps>0ac1ff0e-9401-4730-b925-8d3f1e8cb87f</tstamps>
+      <tstamps>64f4a70e-691d-415d-a302-9206264b30c8</tstamps>
     </comp>
     <comp ref="D3">
       <value>GREEN</value>
@@ -609,15 +609,36 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
       <tstamps>67ce7b18-f2fb-4922-8104-3239a3363414</tstamps>
     </comp>
     <comp ref="J3">
-      <value>USB_B_Micro</value>
-      <footprint>Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal</footprint>
-      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <value>Probe_points</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ESP32-S3-WROOM-1-Breakout"/>
       <property name="Sheetfile" value="ESP32-Breakout.kicad_sch"/>
-      <property name="ki_description" value="USB Micro Type B connector"/>
-      <property name="ki_keywords" value="connector USB micro"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
-      <tstamps>cb78b24d-6297-4942-9618-a0b70ea29963</tstamps>
+      <tstamps>f8d5f509-30e9-42ca-9144-5165afe690cb</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>10118194-0011LF</value>
+      <footprint>MicroUSB:AMPHENOL_10118194-0011LF</footprint>
+      <fields>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.7 mm</field>
+        <field name="PARTREV">D</field>
+        <field name="SNAPEDA_PN">10118194-0011LF</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="MicroUSB" part="10118194-0011LF" description=""/>
+      <property name="PARTREV" value="D"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="SNAPEDA_PN" value="10118194-0011LF"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.7 mm"/>
+      <property name="MANUFACTURER" value="Amphenol"/>
+      <property name="Sheetname" value="ESP32-S3-WROOM-1-Breakout"/>
+      <property name="Sheetfile" value="ESP32-Breakout.kicad_sch"/>
+      <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
+      <tstamps>59023205-1963-44dd-827c-bf0c1bc68c7b</tstamps>
     </comp>
     <comp ref="R21">
       <value>10k</value>
@@ -628,7 +649,7 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
-      <tstamps>0cfd8752-57b8-42d1-b1f0-75b05712664e</tstamps>
+      <tstamps>e97adc1c-c07c-4d65-92bf-6562a7228010</tstamps>
     </comp>
     <comp ref="R22">
       <value>300</value>
@@ -642,28 +663,78 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
       <tstamps>839f794a-c4c3-405e-9a52-048268d2fd5a</tstamps>
     </comp>
     <comp ref="SW1">
-      <value>SW_MEC_5E</value>
-      <footprint>Button_Switch_SMD:SW_SPST_TL3305A</footprint>
-      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
-      <libsource lib="" part="SW_MEC_5E_1" description="MEC 5E single pole normally-open tactile switch"/>
+      <value>1825910-6</value>
+      <footprint>1825910-6:SW_1825910-6-4</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">1825910-6</field>
+        <field name="Description">
+Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">1825910-6</field>
+        <field name="PARTREV">C10</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="1825910-6" part="1825910-6" description=""/>
+      <property name="Comment" value="1825910-6"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="1825910-6"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
       <property name="Sheetname" value="ESP32-S3-WROOM-1-Breakout"/>
       <property name="Sheetfile" value="ESP32-Breakout.kicad_sch"/>
-      <property name="ki_description" value="MEC 5E single pole normally-open tactile switch"/>
-      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
-      <tstamps>5b437a19-2bf5-4d92-89a9-f786328ea593</tstamps>
+      <tstamps>b596725b-700c-42f9-8896-fe7812024ba1</tstamps>
     </comp>
     <comp ref="SW2">
-      <value>SW_MEC_5E</value>
-      <footprint>Button_Switch_SMD:SW_SPST_TL3305A</footprint>
-      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
-      <libsource lib="" part="SW_MEC_5E_1" description="MEC 5E single pole normally-open tactile switch"/>
+      <value>1825910-6</value>
+      <footprint>1825910-6:SW_1825910-6-4</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">1825910-6</field>
+        <field name="Description">
+Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">1825910-6</field>
+        <field name="PARTREV">C10</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="1825910-6" part="1825910-6" description=""/>
+      <property name="Comment" value="1825910-6"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="1825910-6"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
       <property name="Sheetname" value="ESP32-S3-WROOM-1-Breakout"/>
       <property name="Sheetfile" value="ESP32-Breakout.kicad_sch"/>
-      <property name="ki_description" value="MEC 5E single pole normally-open tactile switch"/>
-      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/ESP32-S3-WROOM-1-Breakout/" tstamps="/9ddfa1ea-66ee-4174-a94e-e68577e9309d/"/>
-      <tstamps>9d393cd7-1015-42fe-9aa0-e01d0f182a5f</tstamps>
+      <tstamps>82924d95-1940-47ee-b714-3747a25c5f1a</tstamps>
     </comp>
     <comp ref="U9">
       <value>AZ1084-3.3</value>
@@ -1278,21 +1349,31 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="SW_MEC_5E_1">
-      <description>MEC 5E single pole normally-open tactile switch</description>
-      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</docs>
-      <footprints>
-        <fp>SW*MEC*5G*</fp>
-      </footprints>
+    <libpart lib="1825910-6" part="1825910-6">
       <fields>
-        <field name="Reference">SW1</field>
-        <field name="Value">SW_MEC_5E</field>
-        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3305A</field>
-        <field name="Datasheet">http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</field>
+        <field name="Reference">SW</field>
+        <field name="Value">1825910-6</field>
+        <field name="Footprint">1825910-6:SW_1825910-6-4</field>
+        <field name="Comment">1825910-6</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="Description">
+Switch Push Button OFF (ON) SPST Round Button 0.05A 24VDC Momentary Contact PC Pins Thru-Hole
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">C10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1825910-6/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+        <field name="MP">1825910-6</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Analog_ADC" part="HX711">
@@ -1398,24 +1479,22 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="USB_B_Micro">
-      <description>USB Micro Type B connector</description>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>USB*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">USB_B_Micro</field>
+        <field name="Value">Conn_01x04</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-" type="bidirectional"/>
-        <pin num="3" name="D+" type="bidirectional"/>
-        <pin num="4" name="ID" type="passive"/>
-        <pin num="5" name="GND" type="power_out"/>
-        <pin num="6" name="Shield" type="passive"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -1571,6 +1650,31 @@ Buffers &amp; Line Drivers HEX HI-LO LVL SHIFTR
         <pin num="39" name="IO1" type="bidirectional"/>
         <pin num="40" name="GND__1" type="power_in"/>
         <pin num="41" name="GND__2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroUSB" part="10118194-0011LF">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10118194-0011LF</field>
+        <field name="Footprint">10118194-0011LF:AMPHENOL_10118194-0011LF</field>
+        <field name="PARTREV">D</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SNAPEDA_PN">10118194-0011LF</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.7 mm</field>
+        <field name="MANUFACTURER">Amphenol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD__1" type="passive"/>
+        <pin num="S3" name="SHIELD__2" type="passive"/>
+        <pin num="S4" name="SHIELD__3" type="passive"/>
+        <pin num="S5" name="SHIELD__4" type="passive"/>
+        <pin num="S6" name="SHIELD__5" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Power_Protection" part="SP0502BAHT">
@@ -1750,14 +1854,23 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
     </libpart>
   </libparts>
   <libraries>
+    <library logical="1825910-6">
+      <uri>/Users/dulanya/Desktop/le2-pcb-hardware/flight-module/Core-board/../../hardware-sch-blocks/LE2/1825910-6/1825910-6.kicad_sym</uri>
+    </library>
     <library logical="Analog_ADC">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Analog_ADC.kicad_sym</uri>
     </library>
     <library logical="Connector">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
     </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
     <library logical="Device">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MicroUSB">
+      <uri>/Users/dulanya/Desktop/le2-pcb-hardware/flight-module/Core-board/../../hardware-sch-blocks/ALULA-FLIGHT/10118194_0011LF/10118194-0011LF.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
@@ -1805,11 +1918,12 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="A5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J1" pin="A6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J1" pin="A7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J1" pin="A8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
@@ -1825,14 +1939,16 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
       <node ref="U9" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="4" name="/ESP32-S3-WROOM-1-Breakout/BOOT">
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="3" pintype="passive"/>
+      <node ref="SW2" pin="4" pintype="passive"/>
       <node ref="U10" pin="27" pinfunction="IO0" pintype="bidirectional"/>
     </net>
     <net code="5" name="/ESP32-S3-WROOM-1-Breakout/EN">
-      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
       <node ref="U10" pin="3" pinfunction="EN" pintype="input"/>
     </net>
     <net code="6" name="/ESP32-S3-WROOM-1-Breakout/IO10">
@@ -1849,12 +1965,14 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
     </net>
     <net code="10" name="/ESP32-S3-WROOM-1-Breakout/USB_D+">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J11" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U10" pin="14" pinfunction="IO20" pintype="bidirectional"/>
     </net>
     <net code="11" name="/ESP32-S3-WROOM-1-Breakout/USB_D-">
       <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J11" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U10" pin="13" pinfunction="IO19" pintype="bidirectional"/>
     </net>
     <net code="12" name="/HX1_A+">
@@ -2045,7 +2163,7 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
     </net>
     <net code="48" name="GND">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
@@ -2065,7 +2183,7 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D1" pin="3" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="A10" pinfunction="Pin_10" pintype="passive"/>
@@ -2095,9 +2213,15 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
       <node ref="J1" pin="B5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J1" pin="B8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J1" pin="B9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J11" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J11" pin="S2" pinfunction="SHIELD__1" pintype="passive"/>
+      <node ref="J11" pin="S3" pinfunction="SHIELD__2" pintype="passive"/>
+      <node ref="J11" pin="S4" pinfunction="SHIELD__3" pintype="passive"/>
+      <node ref="J11" pin="S5" pinfunction="SHIELD__4" pintype="passive"/>
+      <node ref="J11" pin="S6" pinfunction="SHIELD__5" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J3" pin="5" pinfunction="GND" pintype="power_out"/>
-      <node ref="J3" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
@@ -2122,8 +2246,10 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
       <node ref="R44" pin="1" pintype="passive"/>
       <node ref="R46" pin="1" pintype="passive"/>
       <node ref="R48" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="INB+" pintype="input"/>
       <node ref="U1" pin="14" pinfunction="XI" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="AGND" pintype="power_in"/>
@@ -2155,9 +2281,9 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
       <node ref="U8" pin="8" pinfunction="GND" pintype="power_in"/>
       <node ref="U9" pin="1" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="49" name="Net-(D2-A)">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    <net code="49" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="VBUS" pintype="power_in"/>
     </net>
     <net code="50" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
@@ -2397,8 +2523,8 @@ Flash Memory Card 4Gbit 2.7V to 3.6V SD Card 8-Pin LGA
     <net code="108" name="unconnected-(J1A-Pin_40-PadA40)">
       <node ref="J1" pin="A40" pinfunction="Pin_40" pintype="passive+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(J3-ID-Pad4)">
-      <node ref="J3" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    <net code="109" name="unconnected-(J11-ID-Pad4)">
+      <node ref="J11" pin="4" pinfunction="ID" pintype="bidirectional+no_connect"/>
     </net>
     <net code="110" name="unconnected-(U1-XO-Pad13)">
       <node ref="U1" pin="13" pinfunction="XO" pintype="passive+no_connect"/>

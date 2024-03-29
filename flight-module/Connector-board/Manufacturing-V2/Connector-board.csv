@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"DB9_Female","SOLENOIDS_DSUB1,4TC_DSUB1","Connector_Dsub:DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles",""
+"22 µF","C1,C2","Diode_SMD:D_0603_1608Metric",""
+"0.01u","C3,C5,C7,C9","Capacitor_SMD:C_0603_1608Metric",""
+"10u","C4,C6,C8,C10","Capacitor_SMD:C_0603_1608Metric",""
+"D_Schottky","D1,D2,D3,D4,D5,D6,D7,D8","Diode_SMD:D_SOD-128",""
+"FerriteBead_Small","FB1,FB2,FB3,FB4,FB5,FB6,FB7,FB8","Capacitor_SMD:C_0603_1608Metric",""
+"DB15_Female","GND_DSUB1","Connector_Dsub:DSUB-15_Female_Vertical_P2.77x2.84mm_MountingHoles",""
+"Stack_Shape","J1","Stack_Shape:Stack_Shape",""
+"DB25_Receptacle","PT_DSUB1","Connector_Dsub:DSUB-25_Female_Vertical_P2.77x2.84mm_MountingHoles",""
+"1k","R1,R2","Diode_SMD:D_0603_1608Metric",""
+"10k","R3,R4,R5,R6","Resistor_SMD:R_0603_1608Metric",""
+"MAX31855KASA","U1,U2,U3,U4","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",""

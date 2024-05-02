@@ -794,7 +794,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 73.66 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 022f06ff-91b0-41c9-9ad2-0e0d0c01cde7)
-    (property "Reference" "R1" (at 69.85 74.422 90)
+    (property "Reference" "R39" (at 69.85 74.422 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100kΩ" (at 70.358 76.454 90)
@@ -810,9 +810,6 @@
     (pin "2" (uuid 56ddaa45-5fcd-4a8f-93bc-9af98c0ec8fb))
     (instances
       (project "Core-board"
-        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "R1") (unit 1)
-        )
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/b3294fa4-471e-45dc-a523-7ccd04494d78"
           (reference "R39") (unit 1)
         )
@@ -1544,7 +1541,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 76.2 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddc8e297-e0ee-4ded-b621-ffdaddf23239)
-    (property "Reference" "R4" (at 72.136 70.866 0)
+    (property "Reference" "R40" (at 72.136 70.866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2kΩ" (at 71.374 72.644 0)
@@ -1560,9 +1557,6 @@
     (pin "2" (uuid eb9bde32-7c41-48fd-8766-62f2312d739f))
     (instances
       (project "Core-board"
-        (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8"
-          (reference "R4") (unit 1)
-        )
         (path "/9e0a4b39-2b30-4bec-9684-92acf902e3a8/b3294fa4-471e-45dc-a523-7ccd04494d78"
           (reference "R40") (unit 1)
         )
